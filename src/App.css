@@ -8,6 +8,7 @@
 .home,
 .movies,
 .characters,
+.items,
 .subscribe {
   display: flex;
   height: 90vh;
@@ -17,7 +18,7 @@
 }
 
 .characters {
-  /* background-image: url('/images/img-2.jpg'); */
+  background-image: url('../src/Images/img-1.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -26,7 +27,7 @@
 }
 
 .items {
-  /* background-image: url('/images/img-1.jpg'); */
+  background-image: url('../src/Images/img-3.jpg');
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
@@ -34,8 +35,17 @@
   font-size: 100px;
 }
 
+.movies {
+  background-image: url('../src/Images/img-8.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
 .subscribe {
-  /* background-image: url('/images/img-8.jpg'); */
+  background-image: url('../src/Images/img-4.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
