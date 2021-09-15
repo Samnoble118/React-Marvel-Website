@@ -6,7 +6,6 @@
 }
 
 .home,
-.movies,
 .characters,
 .items,
 .subscribe {
@@ -17,8 +16,16 @@
   font-size: 3rem;
 }
 
+.movies{
+  display: flex;
+  height: 90vh;
+  align-items: left;
+  justify-content: center;
+  font-size: 3rem;
+}
+
 .characters {
-  background-image: url('../src/Images/img-1.jpg');
+  background-image: url('../src/Images/Marvel-Characters.jpeg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -27,7 +34,7 @@
 }
 
 .items {
-  background-image: url('../src/Images/img-3.jpg');
+  background-image: url('../src/Images/Infinity-Stones-2.jpeg');
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
@@ -36,7 +43,7 @@
 }
 
 .movies {
-  background-image: url('../src/Images/img-8.jpg');
+  background-image: url('../src/Images/Marvel-Movies.jpeg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

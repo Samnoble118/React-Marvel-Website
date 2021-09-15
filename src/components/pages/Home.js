@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../App.css';
 import HeroSection from '../HeroSection';
-import Cards from '../Cards';
+import CardsHome from '../CardsHome';
 import Footer from '../Footer';
 
 
@@ -9,7 +9,7 @@ function Home () {
     return (
         <>
         <HeroSection />
-        <Cards />
+        <CardsHome />
         <Footer />
         </>
     );
