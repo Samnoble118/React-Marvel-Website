@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Samnoble118/React-Marvel-Website.git/static/css/main.35d29da4.chunk.css",
+    "main.js": "/Samnoble118/React-Marvel-Website.git/static/js/main.0a72f753.chunk.js",
+    "main.js.map": "/Samnoble118/React-Marvel-Website.git/static/js/main.0a72f753.chunk.js.map",
+    "runtime-main.js": "/Samnoble118/React-Marvel-Website.git/static/js/runtime-main.e9c577da.js",
+    "runtime-main.js.map": "/Samnoble118/React-Marvel-Website.git/static/js/runtime-main.e9c577da.js.map",
+    "static/js/2.38943785.chunk.js": "/Samnoble118/React-Marvel-Website.git/static/js/2.38943785.chunk.js",
+    "static/js/2.38943785.chunk.js.map": "/Samnoble118/React-Marvel-Website.git/static/js/2.38943785.chunk.js.map",
+    "index.html": "/Samnoble118/React-Marvel-Website.git/index.html",
+    "static/css/main.35d29da4.chunk.css.map": "/Samnoble118/React-Marvel-Website.git/static/css/main.35d29da4.chunk.css.map",
+    "static/js/2.38943785.chunk.js.LICENSE.txt": "/Samnoble118/React-Marvel-Website.git/static/js/2.38943785.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/Samnoble118/React-Marvel-Website.git/static/media/img-4.a31875b7.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e9c577da.js",
+    "static/js/2.38943785.chunk.js",
+    "static/css/main.35d29da4.chunk.css",
+    "static/js/main.0a72f753.chunk.js"
+  ]
+}
