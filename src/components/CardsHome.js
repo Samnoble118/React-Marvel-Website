@@ -1,6 +1,9 @@
 import React from 'react';
 import CardsItem from './CardsItem';
 import './Cards.css';
+import MarvelMovies from '../Images/Marvel-Movies.jpeg';
+import MarvelCharacters from '../Images/Marvel-Characters.jpeg';
+import MarvelItems from '../Images/Infinity-Stones.jpeg';
 
 function CardsHome () {
     return (
@@ -10,19 +13,19 @@ function CardsHome () {
                <div className="cards__wrapper">
                    <ul className="cards__items">
                    <CardsItem 
-                        src="images/Marvel-Movies.jpeg"
+                        src={MarvelMovies}
                         text="Explore all the movies in the MCU"
                         label="Movies"
                         path='/movies'
                         />
                          <CardsItem 
-                        src="images/Marvel-Characters.jpeg"
+                        src={MarvelCharacters}
                         text="Explore all of the MCU Superheroes"
                         label="Heroes"
                         path='/characters'
                         />
                    <CardsItem 
-                        src="images/Infinity-Stones.jpeg"
+                        src={MarvelItems}
                         text="Explore all the weapons, ships and powerful objects in the MCU"
                         label="Objestcs"
                         path='/items'

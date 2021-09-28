@@ -1,6 +1,19 @@
 import React from 'react'
 import CardsItem from './CardsItem'
 import './Cards.css';
+import IronMan from '../Images/Iron-Man-2.jpeg';
+import Hulk from '../Images/The-Incredible-Hulk.jpeg';
+import IronMan2 from '../Images/Iron-Man-2-Movie.jpeg';
+import Thor from '../Images/Thor.jpeg';
+import CaptainAmerica1 from '../Images/The-First-Avenger.jpeg';
+import AvengersAssemble from '../Images/Avengers-Assemble.jpeg';
+import IronMan3 from '../Images/Iron-Man-3.jpeg';
+import Thor2 from '../Images/Thor-The-Dark-World.jpeg';
+import CaptainAmerica2 from '../Images/The-Winter-Solider.jpeg';
+import GotG from '../Images/Guardians-Of-The-Galaxy.jpeg';
+import AvengersAoU from '../Images/Age-Of-Ultron.jpeg';
+import AntMan1 from '../Images/Ant-Man.jpeg';
+
 
 function Cards() {
     return (
@@ -10,19 +23,19 @@ function Cards() {
                 <div className="cards__wrapper">
                     <ul className="cards__items">
                         <CardsItem 
-                        src="images/Iron-Man-2.jpeg"
+                        src={IronMan}
                         text="Iron Man"
                         label="Iron Man"
                         path='/characters'
                         />
                          <CardsItem 
-                        src="images/The-Incredible-Hulk.jpeg"
+                        src={Hulk}
                         text="The Incredible Hulk"
                         label="Hulk"
                         path='/characters'
                         />
                         <CardsItem 
-                        src="images/Iron-Man-2-Movie.jpeg"
+                        src={IronMan2}
                         text="Iron Man 2"
                         label="Iron Man"
                         path='/characters'
@@ -30,19 +43,19 @@ function Cards() {
                         </ul>
                         <ul className="cards__items">
                         <CardsItem 
-                        src="images/Thor.jpeg"
+                        src={Thor}
                         text="Thor"
                         label="Thor"
                         path='/characters'
                         />
                         <CardsItem 
-                        src="images/The-First-Avenger.jpeg"
+                        src={CaptainAmerica1}
                         text="Captain America The First Avenger"
                         label="Captain America"
                         path='/characters'
                         />
                         <CardsItem 
-                        src="images/Avengers-Assemble.jpeg"
+                        src={AvengersAssemble}
                         text="Avengers Assemble"
                         label="Avengers"
                         path='/characters'
@@ -56,19 +69,19 @@ function Cards() {
                 <div className="cards__wrapper">
                     <ul className="cards__items">
                         <CardsItem 
-                        src="images/Iron-Man-3.jpeg"
+                        src={IronMan3}
                         text="Iron Man 3"
                         label="Iron Man"
                         path='/characters'
                         />
                          <CardsItem 
-                        src="images/Thor-The-Dark-World.jpeg"
+                        src={Thor2}
                         text="Thor The Dark Wold"
                         label="Thor"
                         path='/characters'
                         />
                         <CardsItem 
-                        src="images/The-Winter-Solider.jpeg"
+                        src={CaptainAmerica2}
                         text="Captain America The Winter Solider"
                         label="Captain America"
                         path='/characters'
@@ -76,19 +89,19 @@ function Cards() {
                         </ul>
                         <ul className="cards__items">
                         <CardsItem 
-                        src="images/Guardians-Of-The-Galaxy.jpeg"
+                        src={GotG}
                         text="Guardians Of The Galaxy"
                         label="Guardians Of The Galaxy"
                         path='/characters'
                         />
                         <CardsItem 
-                        src="images/Age-Of-Ultron.jpeg"
+                        src={AvengersAoU}
                         text="Avengers Age Of Ultron"
                         label="Avengers"
                         path='/characters'
                         />
                         <CardsItem 
-                        src="images/Ant-Man.jpeg"
+                        src={AntMan1}
                         text="Ant Man"
                         label="Ant Man"
                         path='/characters'
