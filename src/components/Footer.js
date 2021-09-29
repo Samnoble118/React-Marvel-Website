@@ -8,7 +8,7 @@ function Footer() {
         <div className='footer-container'>
             <section className="footer-subscription">
                 <p className="footer-subscription-heading">
-                    Join the Adventure newsletter for all the mavel updates.
+                    Join the Adventure newsletter for all the Marvel updates.
                 </p>
                 <p className="footer-subscription-text">You can unsubscribe at anytime
                 </p>
