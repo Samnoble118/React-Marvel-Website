@@ -17,7 +17,7 @@ function App() {
     <Router>
     <Navbar />
       <Switch>
-    <Route path="/" exact component={Home} />
+    <Route path="/React-Marvel-Website" exact component={Home} />
     <Route path='/characters' component={Characters} />
     <Route path='/movies' component={Movies} />
     <Route path='/items' component={Items} />
