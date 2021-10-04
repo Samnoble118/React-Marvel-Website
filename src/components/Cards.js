@@ -13,6 +13,17 @@ import CaptainAmerica2 from '../Images/The-Winter-Solider.jpeg';
 import GotG from '../Images/Guardians-Of-The-Galaxy.jpeg';
 import AvengersAoU from '../Images/Age-Of-Ultron.jpeg';
 import AntMan1 from '../Images/Ant-Man.jpeg';
+import CaptainAmerica3 from '../Images/Civil-War.jpeg';
+import SpiderMan1 from '../Images/Spider-Man-Homecoming.jpeg';
+import BlackPanther from '../Images/Black-Panther.jpeg';
+import GotG2 from '../Images/Guardians-Of-The-Galaxy-Vol2.jpeg';
+import DoctorStrange from '../Images/Doctor-Strange.jpeg';
+import Thor3 from '../Images/Thor-Ragnarok.jpeg';
+import AvengersIF from '../Images/Infinity-War.jpeg';
+import AntMan2 from '../Images/Ant-Man-The-Wasp.jpeg';
+import CaptainMarvel from '../Images/Captain-Marvel.jpg';
+import AvengersEG from '../Images/Endgame.jpeg';
+import SpiderMan2 from '../Images/Far-From-Home.jpeg';
 
 
 function Cards() {
@@ -104,6 +115,86 @@ function Cards() {
                         src={AntMan1}
                         text="Ant Man"
                         label="Ant Man"
+                        path='/characters'
+                        />
+                    </ul>
+                    
+                </div>
+            </div>
+            <h1>Phase Three</h1>
+            <div className="cards__container">
+                <div className="cards__wrapper">
+                    <ul className="cards__items">
+                        <CardsItem 
+                        src={CaptainAmerica3}
+                        text="Captain America: Civil War"
+                        label="Captain America"
+                        path='/characters'
+                        />
+                         <CardsItem 
+                        src={SpiderMan1}
+                        text="Spider-Man: Homecoming"
+                        label="Spider-Man"
+                        path='/characters'
+                        />
+                        <CardsItem 
+                        src={BlackPanther}
+                        text="Black Panther"
+                        label="Black Panther"
+                        path='/characters'
+                        />
+                        </ul>
+                        <ul className="cards__items">
+                        <CardsItem 
+                        src={GotG2}
+                        text="Guardians Of The Galaxy Vol.2"
+                        label="Guardians Of The Galaxy"
+                        path='/characters'
+                        />
+                        <CardsItem 
+                        src={DoctorStrange}
+                        text="Doctor Strange"
+                        label="Doctor Strange"
+                        path='/characters'
+                        />
+                        <CardsItem 
+                        src={Thor3}
+                        text="Thor: Ragnorok"
+                        label="Thor"
+                        path='/characters'
+                        />
+                        </ul>
+                        <ul className="cards__items">
+                         <CardsItem 
+                        src={AvengersIF}
+                        text="Avengers: Infinity war"
+                        label="Avengers"
+                        path='/characters'
+                        />
+                         <CardsItem 
+                        src={AntMan2}
+                        text="Ant Man And The Wasp"
+                        label="Ant Man"
+                        path='/characters'
+                        />
+                         <CardsItem 
+                        src={CaptainMarvel}
+                        text="Captain Marvel"
+                        label="Captain Marvel"
+                        path='/characters'
+                        />
+                        </ul>
+                        <ul className="cards__items">
+                         <CardsItem 
+                        src={AvengersEG}
+                        text="Avengers: Endgame"
+                        label="Avengers"
+                        path='/characters'
+                        />
+                         <CardsItem 
+                        src={SpiderMan2}
+                        text="Spider-Man: Far From Home"
+                        label="Spider-Man"
                         path='/characters'
                         />
                     </ul>

@@ -53,11 +53,11 @@ function Navbar() {
                         </Link>
                     </li>
                     <li className='nav-item' onClick={closeMobileMenu}><Link to='/Subscribe' className="nav-links-mobile">
-                        Subscribe
+                        Trailers
                         </Link>
                     </li>
                 </ul>
-                {button && <Button buttonStyle='btn--outline'>SUBSCRIBE</Button>}
+                {button && <Button buttonStyle='btn--outline'>TRAILERS</Button>}
             </div>
         </nav>
         </>

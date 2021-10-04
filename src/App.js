@@ -6,7 +6,8 @@ import Home from './components/pages/Home';
 import Characters from './components/pages/Characters';
 import Movies from './components/pages/Movies';
 import Items from './components/pages/Items';
-import Subscribe from './components/pages/Subscribe'
+import Subscribe from './components/pages/Subscribe';
+import ScrollToTop from './components/ScrollToTop';
 
 import './App.css';
 
@@ -15,6 +16,7 @@ function App() {
   return (
     <>
     <Router>
+      <ScrollToTop />
     <Navbar />
       <Switch>
     <Route path="/React-Marvel-Website" exact component={Home} />

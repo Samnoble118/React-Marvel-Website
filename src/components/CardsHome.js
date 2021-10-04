@@ -7,8 +7,8 @@ import MarvelItems from '../Images/Infinity-Stones.jpeg';
 
 function CardsHome () {
     return (
-       <div className="cards">
-           <h1>Where do you want to explore?</h1>
+       <div className="cards" >
+           <h1><span id="getStarted"></span>Where do you want to explore?</h1>
            <div className="cards__container">
                <div className="cards__wrapper">
                    <ul className="cards__items">

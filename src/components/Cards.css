@@ -6,6 +6,12 @@
   
   h1 {
     text-align: center;
+    position: relative;
+  }
+
+  #getStarted {
+    position: absolute;
+    bottom: 160px;
   }
   
   .cards__container {

@@ -8,52 +8,60 @@ function Footer() {
         <div className='footer-container'>
             <section className="footer-subscription">
                 <p className="footer-subscription-heading">
-                    Join the Adventure newsletter for all the Marvel updates.
+                    The Marvel Ciniamatic Universe
                 </p>
-                <p className="footer-subscription-text">You can unsubscribe at anytime
+                <p className="footer-subscription-text">Watch the movies in timeline order:
                 </p>
                 <div className="input-areas">
-                    <form>
-                <input type="email" name="email" placeholder="Your Email" className="footer-input"/>
-                <Button buttonStyle='btn-outline'>Subscribe</Button>
-                    </form>
+                   
                 </div>
             </section>
             <div className="footer-links">
                 <div className="footer-link-wrapper">
                     <div className="footer-link-items">
-                    <h2>About Us</h2>
-                    <Link to='/subscribe'>How it works</Link>
-                    <Link to='/'>Hello</Link>
-                    <Link to='/'>Yellow</Link>
-                    <Link to='/'>Pidgy</Link>
-                    <Link to='/'>Poo</Link>
+                    <h2>Phase One</h2>
+                    <Link to='/subscribe'>Iron Man</Link>
+                    <Link to='/'>The Incredible Hulk</Link>
+                    <Link to='/'>Iron Man 2</Link>
+                    <Link to='/'>Thor</Link>
+                    <Link to='/'>Captain America: The First Avenger</Link>
+                    <Link to='/'>Avengers Assemble</Link>
                     </div>
                     <div className="footer-link-items">
-                    <h2>About Us</h2>
-                    <Link to='/subscribe'>How it works</Link>
-                    <Link to='/'>Hello</Link>
-                    <Link to='/'>Yellow</Link>
-                    <Link to='/'>Pidgy</Link>
-                    <Link to='/'>Poo</Link>
+                    <h2>Phase Two</h2>
+                    <Link to='/subscribe'>Iron Man 3</Link>
+                    <Link to='/'>Thor: The Dark World</Link>
+                    <Link to='/'>Captain America: The Winter Soilder</Link>
+                    <Link to='/'>Guardians Of The Galaxy</Link>
+                    <Link to='/'>Avengers Age Of Ultron</Link>
+                    <Link to='/'>Ant Man</Link>
                     </div>
                 </div>
                 <div className="footer-link-wrapper">
                     <div className="footer-link-items">
-                    <h2>About Us</h2>
-                    <Link to='/subscribe'>How it works</Link>
-                    <Link to='/'>Hello</Link>
-                    <Link to='/'>Yellow</Link>
-                    <Link to='/'>Pidgy</Link>
-                    <Link to='/'>Poo</Link>
+                    <h2>Phase Three</h2>
+                    <Link to='/subscribe'>Captain America: Civil War</Link>
+                    <Link to='/'>Spider-Man: Homecoming</Link>
+                    <Link to='/'>Black Panther</Link>
+                    <Link to='/'>Guardians Of The Galaxy Vol.2</Link>
+                    <Link to='/'>Doctor Strange</Link>
+                    <Link to='/'>Thor: Ragnorok</Link>
+                    <Link to='/'>Avengers: Infinity War</Link>
+                    <Link to='/'>Ant Man And The Wasp</Link>
+                    <Link to='/'>Captain Marvel</Link>
+                    <Link to='/'>Avengers: Endgame</Link>
+                    <Link to='/'>Spider-Man: Far From Home</Link>
                     </div>
                     <div className="footer-link-items">
-                    <h2>About Us</h2>
-                    <Link to='/subscribe'>How it works</Link>
-                    <Link to='/'>Hello</Link>
-                    <Link to='/'>Yellow</Link>
-                    <Link to='/'>Pidgy</Link>
-                    <Link to='/'>Poo</Link>
+                    <h2>Phase Four</h2>
+                    <Link to='/subscribe'>Black Widow</Link>
+                    <Link to='/'>WandaVision</Link>
+                    <Link to='/'>The Falcon And The Winter Solider</Link>
+                    <Link to='/'>Loki</Link>
+                    <Link to='/'>Shang Chi And The Ledgend Of The Ten Rings</Link>
+                    <Link to='/'>The Eternals</Link>
+                    <Link to='/'>Hawkeye</Link>
+                    <Link to='/'>Spider-Man: No Way Home</Link>
                     </div>
                 </div>
             </div>
