@@ -1,0 +1,19 @@
+.movieChars{
+    padding: 4rem;
+    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgba(238,27,36,255) 100%);
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+    position: relative;
+  }
+
+.chars__container{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    max-width: 1120px;
+    width: 90%;
+    margin: 0 auto;
+}
