@@ -8,7 +8,7 @@ function Footer() {
         <div className='footer-container'>
             <section className="footer-subscription">
                 <p className="footer-subscription-heading">
-                    The Marvel Ciniamatic Universe
+                    The Marvel Cinematic Universe
                 </p>
                 <p className="footer-subscription-text">Watch the movies in timeline order:
                 </p>
