@@ -10,7 +10,7 @@ function HeroSection() {
         <div className='hero-container'>
             <video src={Video} autoPlay loop muted />
             <h1>MARVEL CINEMATIC UNIVERSE</h1>
-            <p>Avegers Assemble!</p>
+            <p>Avengers Assemble!</p>
             <br /><br />
             <div className="hero-btns">
                 
