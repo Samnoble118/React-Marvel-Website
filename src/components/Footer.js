@@ -58,8 +58,8 @@ function Footer() {
                     <Link to='/'>WandaVision</Link>
                     <Link to='/'>The Falcon And The Winter Solider</Link>
                     <Link to='/'>Loki</Link>
-                    <Link to='/'>Shang Chi And The Ledgend Of The Ten Rings</Link>
-                    <Link to='/'>The Eternals</Link>
+                    <Link to='/'>Shang Chi And The Legend Of The Ten Rings</Link>
+                    <Link to='/'>Eternals</Link>
                     <Link to='/'>Hawkeye</Link>
                     <Link to='/'>Spider-Man: No Way Home</Link>
                     </div>
@@ -72,7 +72,7 @@ function Footer() {
                             MARVEL <i class="fas fa-mask"></i>
                         </Link>
                     </div>
-                    <small class='website-rights'>Marvel © 2020</small>
+                    <small class='website-rights'>Marvel © 2022</small>
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'

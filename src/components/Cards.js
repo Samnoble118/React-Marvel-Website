@@ -20,10 +20,18 @@ import GotG2 from '../Images/Guardians-Of-The-Galaxy-Vol2.jpeg';
 import DoctorStrange from '../Images/Doctor-Strange.jpeg';
 import Thor3 from '../Images/Thor-Ragnarok.jpeg';
 import AvengersIF from '../Images/Infinity-War.jpeg';
-import AntMan2 from '../Images/Ant-Man-The-Wasp.jpeg';
+import AntMan2 from '../Images/Ant-Man-The-Wasp.jpg';
 import CaptainMarvel from '../Images/Captain-Marvel.jpg';
 import AvengersEG from '../Images/Endgame.jpeg';
-import SpiderMan2 from '../Images/Far-From-Home.jpeg';
+import SpiderMan2 from '../Images/Far-From-Home.jpg';
+import BlackWidow from '../Images/Black-Widow.jpg';
+import WandaVision from '../Images/WandaVision.jpg';
+import FalconWinterSoldier from '../Images/The-Falcon-The-Winter-Solider.jpg';
+import Loki from '../Images/Loki.jpg';
+import ShangChi from '../Images/Shang-Chi.jpg';
+import Eternals from '../Images/Eternals.jpg';
+import NoWayHome from '../Images/No-Way-Home.jpg';
+import Hawkeye from '../Images/Hawkeye.jpg';
 
 
 function Cards() {
@@ -195,6 +203,66 @@ function Cards() {
                         src={SpiderMan2}
                         text="Spider-Man: Far From Home"
                         label="Spider-Man"
+                        path='/characters'
+                        />
+                    </ul>
+                    
+                </div>
+                </div>
+            <h1>Phase Four</h1>
+            <div className="cards__container">
+                <div className="cards__wrapper">
+                    <ul className="cards__items">
+                        <CardsItem 
+                        src={BlackWidow}
+                        text="Black Widow"
+                        label="Black Widow"
+                        path='/characters'
+                        />
+                         <CardsItem 
+                        src={WandaVision}
+                        text="WandaVision"
+                        label="Wanda and Vision"
+                        path='/characters'
+                        />
+                        <CardsItem 
+                        src={FalconWinterSoldier}
+                        text="The Falcon And The Winter Solider"
+                        label="Sam and Bucky"
+                        path='/characters'
+                        />
+                        </ul>
+                        <ul className="cards__items">
+                        <CardsItem 
+                        src={Loki}
+                        text="Loki"
+                        label="Loki"
+                        path='/characters'
+                        />
+                        <CardsItem 
+                        src={ShangChi}
+                        text="Shang Chi And The Legend Of The Ten Rings"
+                        label="Shang Chi"
+                        path='/characters'
+                        />
+                        <CardsItem 
+                        src={Eternals}
+                        text="Eternals"
+                        label="Eternals"
+                        path='/characters'
+                        />
+                    </ul>
+                    <ul className="cards__items">
+                         <CardsItem 
+                        src={NoWayHome}
+                        text="Spider-Man: No Way Home"
+                        label="Spider-Man"
+                        path='/characters'
+                        />
+                         <CardsItem 
+                        src={Hawkeye}
+                        text="Hawkeye"
+                        label="Hawkeye"
                         path='/characters'
                         />
                     </ul>

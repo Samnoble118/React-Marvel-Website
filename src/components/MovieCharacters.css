@@ -1,4 +1,4 @@
-.movieChars{
+.character-list{
     padding: 4rem;
     background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgba(238,27,36,255) 100%);
     color: #fff;
@@ -9,11 +9,19 @@ h1 {
     position: relative;
   }
 
-.chars__container{
+.character-container{
+    padding: 40px;
     display: flex;
-    flex-flow: column;
-    align-items: center;
-    max-width: 1120px;
-    width: 90%;
-    margin: 0 auto;
+    gap: 50px;
+    background: linear-gradient(#3d1e6470, #643da26b);
+    border-radius: 25px;
+    margin: 20px 0;
+}
+
+.heroPic{
+    width: 250px;
+}
+
+.character-info h2{
+    margin: 20px 0;
 }
