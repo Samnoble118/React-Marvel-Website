@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/React-Marvel-Website/static/css/main.89002687.chunk.css",
-    "main.js": "/React-Marvel-Website/static/js/main.8c7517b7.chunk.js",
-    "main.js.map": "/React-Marvel-Website/static/js/main.8c7517b7.chunk.js.map",
+    "main.css": "/React-Marvel-Website/static/css/main.7c24a8f3.chunk.css",
+    "main.js": "/React-Marvel-Website/static/js/main.856c1426.chunk.js",
+    "main.js.map": "/React-Marvel-Website/static/js/main.856c1426.chunk.js.map",
     "runtime-main.js": "/React-Marvel-Website/static/js/runtime-main.334b4aca.js",
     "runtime-main.js.map": "/React-Marvel-Website/static/js/runtime-main.334b4aca.js.map",
     "static/js/2.5aea5c43.chunk.js": "/React-Marvel-Website/static/js/2.5aea5c43.chunk.js",
     "static/js/2.5aea5c43.chunk.js.map": "/React-Marvel-Website/static/js/2.5aea5c43.chunk.js.map",
     "index.html": "/React-Marvel-Website/index.html",
-    "static/css/main.89002687.chunk.css.map": "/React-Marvel-Website/static/css/main.89002687.chunk.css.map",
+    "static/css/main.7c24a8f3.chunk.css.map": "/React-Marvel-Website/static/css/main.7c24a8f3.chunk.css.map",
     "static/js/2.5aea5c43.chunk.js.LICENSE.txt": "/React-Marvel-Website/static/js/2.5aea5c43.chunk.js.LICENSE.txt",
     "static/media/Age-Of-Ultron.f5f7f814.jpeg": "/React-Marvel-Website/static/media/Age-Of-Ultron.f5f7f814.jpeg",
     "static/media/Ant-Man-The-Wasp.66f25a8c.jpg": "/React-Marvel-Website/static/media/Ant-Man-The-Wasp.66f25a8c.jpg",
@@ -53,7 +53,7 @@
   "entrypoints": [
     "static/js/runtime-main.334b4aca.js",
     "static/js/2.5aea5c43.chunk.js",
-    "static/css/main.89002687.chunk.css",
-    "static/js/main.8c7517b7.chunk.js"
+    "static/css/main.7c24a8f3.chunk.css",
+    "static/js/main.856c1426.chunk.js"
   ]
 }
