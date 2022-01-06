@@ -16,7 +16,7 @@ function Navbar() {
 
             <nav className="navbar">
                 <div className="nav-logo">
-                    MARVEL <i class="fas fa-mask"></i>
+                   <a href="/React-Marvel-Website">MARVEL <i class="fas fa-mask"></i></a>
                 </div>
 
                 <div className="burger" onClick={navBurger}>
@@ -27,9 +27,10 @@ function Navbar() {
 
                 <div className="nav-items">
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Movies</a></li>
-                        <li><a href="#">Characters</a></li>
+                        <li><a href="/React-Marvel-Website">Home</a></li>
+                        <li><a href="/Movies">Movies</a></li>
+                        <li><a href="/Characters">Characters</a></li>
+                        <li><a href="/Items">Items</a></li>
                     </ul>
                 </div>
             </nav>
