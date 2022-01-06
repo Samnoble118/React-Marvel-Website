@@ -75,8 +75,23 @@ a{
   margin-bottom: 5px;
 }
 
-.toggle{
-  transition: transform 2s ease-in;
+/* Adding transform to the X */
+.burger.close {
+  transform: rotate(180deg);
+}
+
+/* Styling the three lines
+  to make it an X */
+.burger.close .line:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.burger.close .line:nth-child(2) {
+  opacity: 0;
+}
+
+.burger.close .line:nth-child(3) {
+  transform: rotate(-45deg) translate(7px, -6px);
 }
 
 @media (max-width: 800px) {
@@ -99,7 +114,7 @@ a{
   .nav-items{
       display: none;
       width: 100%;
-      transition: transform 0.5s ease-in;
+      
   }
 
   .nav-items li{
@@ -108,5 +123,8 @@ a{
 
   .nav-items.active {
       display: flex;
+      
+      
+      transition: transform 0.5s ease-in;
   }
 }
