@@ -30,7 +30,10 @@
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
-  font-size: 100px;
+}
+
+.characters h1{
+  font-size: 100%;
 }
 
 .items {

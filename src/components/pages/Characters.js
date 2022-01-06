@@ -6,7 +6,10 @@ import Footer from '../Footer';
 export default function Characters() {
     return (
     <div>
-    <h1 className='characters'>CHARACTERS</h1>
+        <div className="characters">
+            <h1>CHARACTERS</h1>
+        </div>
+    
     <MovieCharacters />
     <Footer />
     </div>
