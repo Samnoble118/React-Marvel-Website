@@ -1,5 +1,6 @@
 import React from 'react';
 import './Navbar.css';
+import {Link} from "react-router-dom";
 
 function Navbar() {
 
@@ -27,10 +28,10 @@ function Navbar() {
 
                 <div className="nav-items">
                     <ul>
-                        <li><a href="/React-Marvel-Website">Home</a></li>
-                        <li><a href="/Movies">Movies</a></li>
-                        <li><a href="/Characters">Characters</a></li>
-                        <li><a href="/Items">Items</a></li>
+                        <Link className="li-link" to="/React-Marvel-Website">Home</Link>
+                        <Link className="li-link" to="/Movies">Movies</Link>
+                        <Link className="li-link" to="/Characters">Characters</Link>
+                        <Link className="li-link" to="/Items">Items</Link>
                     </ul>
                 </div>
             </nav>

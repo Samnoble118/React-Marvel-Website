@@ -34,12 +34,12 @@
   font-weight: bold;
 }
 
-.nav-items li:hover {
+.li-link:hover {
   border-bottom: 4px solid #fff;
   transition: all 0.2s ease-out;
 }
 
-.nav-items li {
+.li-link {
   margin: 0 50px;
 }
 
@@ -117,7 +117,7 @@ a{
       
   }
 
-  .nav-items li{
+  .li-link{
       padding: 50px 0;
   }
 
