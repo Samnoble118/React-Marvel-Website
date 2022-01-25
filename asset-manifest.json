@@ -1,21 +1,22 @@
 {
   "files": {
     "main.css": "/React-Marvel-Website/static/css/main.b69f0052.chunk.css",
-    "main.js": "/React-Marvel-Website/static/js/main.59d01108.chunk.js",
-    "main.js.map": "/React-Marvel-Website/static/js/main.59d01108.chunk.js.map",
+    "main.js": "/React-Marvel-Website/static/js/main.f0bba5ed.chunk.js",
+    "main.js.map": "/React-Marvel-Website/static/js/main.f0bba5ed.chunk.js.map",
     "runtime-main.js": "/React-Marvel-Website/static/js/runtime-main.334b4aca.js",
     "runtime-main.js.map": "/React-Marvel-Website/static/js/runtime-main.334b4aca.js.map",
-    "static/js/2.e22d3f43.chunk.js": "/React-Marvel-Website/static/js/2.e22d3f43.chunk.js",
-    "static/js/2.e22d3f43.chunk.js.map": "/React-Marvel-Website/static/js/2.e22d3f43.chunk.js.map",
+    "static/js/2.e2ad0e0a.chunk.js": "/React-Marvel-Website/static/js/2.e2ad0e0a.chunk.js",
+    "static/js/2.e2ad0e0a.chunk.js.map": "/React-Marvel-Website/static/js/2.e2ad0e0a.chunk.js.map",
     "index.html": "/React-Marvel-Website/index.html",
     "static/css/main.b69f0052.chunk.css.map": "/React-Marvel-Website/static/css/main.b69f0052.chunk.css.map",
-    "static/js/2.e22d3f43.chunk.js.LICENSE.txt": "/React-Marvel-Website/static/js/2.e22d3f43.chunk.js.LICENSE.txt",
+    "static/js/2.e2ad0e0a.chunk.js.LICENSE.txt": "/React-Marvel-Website/static/js/2.e2ad0e0a.chunk.js.LICENSE.txt",
     "static/media/Age-Of-Ultron.f5f7f814.jpeg": "/React-Marvel-Website/static/media/Age-Of-Ultron.f5f7f814.jpeg",
     "static/media/Ant-Man-The-Wasp.66f25a8c.jpg": "/React-Marvel-Website/static/media/Ant-Man-The-Wasp.66f25a8c.jpg",
     "static/media/Ant-Man.d8c2e4da.jpeg": "/React-Marvel-Website/static/media/Ant-Man.d8c2e4da.jpeg",
     "static/media/Avengers-Assemble.55bdc978.jpeg": "/React-Marvel-Website/static/media/Avengers-Assemble.55bdc978.jpeg",
     "static/media/Black-Panther.6e3310ec.jpeg": "/React-Marvel-Website/static/media/Black-Panther.6e3310ec.jpeg",
     "static/media/Black-Widow.374724c3.jpg": "/React-Marvel-Website/static/media/Black-Widow.374724c3.jpg",
+    "static/media/Black-Widow.8eb02ca0.jpeg": "/React-Marvel-Website/static/media/Black-Widow.8eb02ca0.jpeg",
     "static/media/Bruce-Banner.2b2e79eb.jpeg": "/React-Marvel-Website/static/media/Bruce-Banner.2b2e79eb.jpeg",
     "static/media/Captain-Marvel.5890492a.jpg": "/React-Marvel-Website/static/media/Captain-Marvel.5890492a.jpg",
     "static/media/Civil-War.7d3b84b4.jpeg": "/React-Marvel-Website/static/media/Civil-War.7d3b84b4.jpeg",
@@ -52,8 +53,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.334b4aca.js",
-    "static/js/2.e22d3f43.chunk.js",
+    "static/js/2.e2ad0e0a.chunk.js",
     "static/css/main.b69f0052.chunk.css",
-    "static/js/main.59d01108.chunk.js"
+    "static/js/main.f0bba5ed.chunk.js"
   ]
 }
