@@ -27,7 +27,7 @@ function CardsHome () {
                    <CardsItem 
                         src={MarvelItems}
                         text="Explore all the weapons, ships and powerful objects in the MCU"
-                        label="Objestcs"
+                        label="Items"
                         path='/items'
                         />
                    </ul>

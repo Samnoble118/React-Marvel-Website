@@ -7,6 +7,7 @@ import PepperPotts from '../Images/Characters/Pepper-Potts.jpeg';
 import Happy from '../Images/Characters/Happy-Hogan.jpeg';
 import Fury from '../Images/Characters/Nick-Fury.jpeg';
 import Hulk from '../Images/Characters/Bruce-Banner.jpeg';
+import BlackWidow from '../Images/Characters/Black-Widow.jpeg';
 
 
 
@@ -115,6 +116,35 @@ function movieCharacters() {
             </div>
             <div className="character-image">
                 <img className="heroPic" src={Hulk} alt="Bruce Banner" />
+            </div>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="fadeInLeft" animateOnce="true" className="character-container">
+            <div className="character-image">
+                <img className="heroPic" src={BlackWidow} alt="Black Widow" />
+            </div>
+             <div className="character-info">
+                <h1>Black Widow</h1>
+                <h2>Natasha" Romanoff</h2>
+                <p>Natalia Alianovna "Natasha" Romanoff (Russian: Наталья Алиановна "Наташа" Романов), also known as Black Widow, was one of the most talented spies and assassins in the entire world and a founding member of the Avengers. As a child, she was indoctrinated into the Red Room by General Dreykov, and briefly lived as the surrogate daughter of Alexei Shostakov and Melina Vostokoff while they were undercover in the United States of America. After the Destruction of the North Institute, she underwent extensive psychological conditioning, before graduating from the Red Room as a Widow. Working as an operative for the KGB, she was targeted by S.H.I.E.L.D., before given the chance to ultimately defect to the organization by Clint Barton by assassinating Dreykov. Romanoff succeeded, although having to use his daughter Antonia Dreykov's life as collateral damage would haunt her for the rest of her life.
+                <br /><br />
+                Having extensive mastery in martial arts and armed with her Widow's Bite, Black Widow became one of S.H.I.E.L.D.'s most efficient agents. During one mission, she was sent undercover into Stark Industries to watch Tony Stark due to the fear that he was dying. During this mission, Romanoff assisted Stark with defeating Ivan Vanko's terrorist plots against him.
+                <br /><br />
+                When Loki declared war on the Earth, Black Widow was recruited into the Avengers after Hawkeye had just been enthralled by Loki. Romanoff assisted in recruiting Stark and Bruce Banner into the team while they tracked down and attempted to capture Loki, eventually saving Barton from his grasp. Once Loki's entire plan had been uncovered, Romanoff joined the team during the Battle of New York and was instrumental in destroying the portal over the city which had been created by the Tesseract, effectively ending the entire invasion while Loki was defeated and deported back to his homeworld by his brother Thor.
+                <br /><br />
+                In the wake of the Avengers successfully defeating Loki, Romanoff continued her work with S.H.I.E.L.D., this time working with Captain America. While working together, Romanoff and Rogers uncovered a conspiracy following an assassination attempt on Nick Fury, which had eventually led to them discovering that HYDRA had been infiltrating their entire organization since its foundation. Despite the efforts of the Winter Soldier to stop them, Romanoff helped expose Alexander Pierce's evil schemes to the world, which also resulted in all of her own morally dubious history being revealed. As a result, Romanoff was forced into dropping off the grid again and began rebuilding her cover.
+                <br /><br />
+                Romanoff eventually rejoined the Avengers, working to bring down various HYDRA cells across the world and assisting in the capture of Wolfgang von Strucker. However, before she could form a romantic relationship with Banner, the rogue artificial intelligence Ultron was created by him and Stark, forcing Romanoff and the rest of their team to join together and defeat him. Despite being captured, Romanoff was able to inform the team of Ultron's location on Sokovia, resulting in a final battle in which the Avengers had defeated Ultron once and for all, though Banner fled into self-exile. Along with Captain America, Black Widow remained a member while forming the second incarnation of the team.
+                <br /><br />
+                As many of the world governments demanded the Avengers to sign the Sokovia Accords in the wake of their recent battles, Romanoff agreed to their terms and signed the Accords. She later joined Iron Man in a fight against Captain America due to his disagreements with the Accords and his criminal activities with the Winter Soldier who Rogers was attempting to protect. As the two Avengers' factions fought against each other, Romanoff betrayed Iron Man's team to assist Captain America in finding the one incriminating the Winter Soldier, inherently violating the Sokovia Accords.
+                <br /><br />
+                As a result, the fugitive Romanoff worked with Rick Mason to escape the government for aiding Rogers. In the process, Romanoff intercepted messages from her former surrogate sister Yelena Belova about the Red Room's resurgence. In possession of the Red Dust, Romanoff and Belova were relentlessly pursued by Taskmaster, who worked for Dreykov, who was believed to have been killed. Reuniting with her surrogate parents, they worked together to bring down the Red Room once and for all. Upon learning Taskmaster was actually Antonia, who had survived all these years but was mind-controlled by Dreykov, Romanoff freed her from Dreykov's enthrallment, and put an end to Dreykov's plans for world domination. Romanoff soon joined Rogers in freeing the incarcerated Avengers.
+                <br /><br />
+                With the Avengers broken up, Romanoff, Rogers and Wilson went on the run for two years as international fugitives, working alone to stop terrorist cells in Syria. When the threat of Thanos approached Earth, Romanoff, Rogers, and Wilson protected Vision, who had the Mind Stone, which Thanos was after. They later defended Wakanda from the attack, but were ultimately defeated when Thanos destroyed half of all life with the Infinity Gauntlet, where Romanoff emerged as one of the survivors. Romanoff was part of the Ambush on Thanos in an effort to retrieve the Infinity Stones and undo the Titan's snap, with no success.
+                <br /><br />
+                Five years later, Romanoff led the Avengers alongside Captain America, now formed by Okoye, Rocket Raccoon, Nebula, War Machine, and Captain Marvel. With an opportunity to undo the Snap presented by Ant-Man, the remaining Avengers split up into teams to retrieve all Infinity Stones from several alternate timelines in the Time Heist. Sent to retrieve the Soul Stone on Vormir with Barton, Romanoff, against Barton's insistence, willingly jumped off the Vormir mountains into the abyss below, sacrificing herself in the process in order to obtain the Soul Stone for the Avengers.
+
+                </p>
             </div>
         </ScrollAnimation>
 
